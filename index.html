@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+/**********************
+Google Fonts
+**********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Paytone+One&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/**********************
+Social Media Icons Library
+**********************/
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+/*************************
+Style the topnav links
+*************************/
+.topnav a {
+  float: left;
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+   font-size: 20px;
+  font-family: 'Paytone One';
+  height: 100px;
+}
+
+
+/*********************
+Change color on hover
+*********************/
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/****************************
+Right navigation bar
+*****************************/
+.topnav-right{
+      float: right;
+    margin: 5px;
+}
+
+
+
+.sign  {
+      border: 5px solid orange;
+      border-radius: 80px;
+      width: 200px;
+     text-decoration: none;
+     top: 60px;
+     padding: 5px 16px;
+     color: orange;
+}
+
+
+/****************************
+Right navigation bar End
+*****************************/
+
+
+
+
+/****************************
+Testimonial Section
+*****************************/
+
+.peach{
+       background-color: #ffe6e6;
+       height: 400px;
+       color: orange;
+       padding: 30px;
+     }
+
+
+
+/****************************
+Top Centred logo
+*****************************/
+
+.logo  {
+         height: 200px;
+         padding: 10px;
+         text-align: center;
+                }
+
+
+/***************************
+Style the top navigation bar
+****************************/
+.topnav {
+  overflow: hidden;
+  background-color:
+
+ }
+
+/****************************
+Change color on hover
+*****************************/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/****************************
+Centre Navugation bar
+*****************************/
+.nav {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    text-decoration: none;
+    color: orange;
+    font-size: 23px;
+   font-family: 'Paytone One';
+}
+
+/****************************
+Navigation list dropdown
+*****************************/
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: black;
+    text-decoration: none;
+}
+
+/*************************
+Hero section
+*************************/
+
+.hero-image {
+  background: url(https://drive.google.com/uc?export=view&id=13iYbFvtgGBjj8X8RwmJz1tvMOSeHQcjt) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+          }
+
+.marble {
+  background: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  margin-top:10px;
+    }
+
+
+
+
+.middle {
+       display: block;
+       margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*************************
+Menu section (flexbox)
+*************************/
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+
+  padding: 5px;
+  width: 550px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+   font-size: 1em;
+}
+
+
+.menu{
+  font-family: 'Pacifico', cursive;
+      text-align: center;
+      font-size: 45px;
+      color: orange;
+}
+
+
+section  {
+
+
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+    background-image:url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-repeat:no-repeat;
+  background-size:cover;}
+
+  section:nth-of-type(2n) {
+    background-color: #FE4B74;
+    background-image:url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  }
+
+
+
+/*************************
+Menu section End
+*************************/
+
+#img2 {
+  float: left;
+  border-radius: 50%;
+}
+
+
+.flex-item1 {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 600px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-item6 {
+
+  padding: 5px;
+  width: 350px;
+  height: 600px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+   font-size: 1em;
+
+}
+
+
+#img3 {
+
+width: 100%;
+}
+
+.flex-item8 {
+
+    width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: black;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  padding:0px 110px;
+  margin: 0px 0px 100px 0px;
+}
+
+.flex-item9 {
+
+    width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin: 10px 100px;
+}
+
+
+/*************************
+Typography section
+*************************/
+
+h3   {
+     font-size: 45px;
+     text-align: center;
+  font-family: 'Pacifico', cursive;
+        }
+
+p      {
+         text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+}
+
+
+h4     {
+
+    font-size: 30px;
+     text-align: center;
+}
+
+
+.block {
+        font-size: 25px;
+        color: grey;
+        line-height: 2;
+}
+
+.subhead {
+         color: black;
+}
+
+
+number {
+      text-align: center;
+  color: solid red;
+  font-size: 25px;
+}
+
+
+/*************************
+Typography End
+*************************/
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 60.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* ----------------
+		Newsletter form
+	---------------------*/
+
+.newsletter_form  {
+            text-align: center;
+            font-size: 20px;
+
+      }
+
+
+
+.submit {
+          font-weight: 900;
+          text-transform: uppercase;
+          border: 3px black solid;
+          padding: 18px 15px 18px 15px;
+            }
+
+
+#email{
+         padding: 20px 30px 20px 30px;
+
+}
+
+
+/* ----------------
+		Footer section
+	---------------------*/
+
+
+.footer {
+       background-color: #cce6ff;
+      text-align: center;
+}
+
+
+.footer-title{
+              color: orange;
+}
+.footer-section {
+	padding: 56px 62px;
+}
+
+.copyright {
+	padding-top: 14px;
+	font-size: 12px;
+	color: #081624;
+	opacity: 0.23;
+}
+
+.footer-contact-list {
+	list-style: none;
+}
+
+.footer-contact-list li {
+	font-size: 15px;
+	color: #60656b;
+	margin-bottom: 15px;
+}
+
+.footer-contact-list li:last-child {
+	margin-bottom: 0;
+}
+
+.footer-contact-list li span {
+	width: 75px;
+	color: #081624;
+	display: inline-block;
+}
+
+/* ----------------
+		Footer section ends
+ 	---------------------*/
+
+
+
+
+
+.testimonial_area  {
+             height: 650px;
+          }
+
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+.flex-container9 {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item9 {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+   border-radius: 50%;
+}
+
+
+.burger {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: grey;
+  margin-bottom: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* ----------------
+		Social Media Icons
+ 	---------------------*/
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+   text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+
+
+  .wrapper  {
+
+  background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-------------------------
+Top navigation bar
+-------------------------->
+
+<div style="font-family: 'Paytone One'; font-size: 20px;">
+ <a href="#" style="color:orange; text-decoration: none; margin: 15px;";>About</a>
+ <a href="#" style="color:orange; text-decoration: none; margin:15px;">Store</a>
+ <a href="#" style="color:orange; text-decoration: none;margin:15px;">Contact</a>
+
+
+<!-------------------------
+Right navigation bar
+-------------------------->
+
+<div class="topnav-right">
+  <a class="sign" href="#about">03 567 6789</a>
+  </div>
+</div>
+
+<!-------------------------
+Centerd Logo
+-------------------------->
+
+<div class="logo">
+<img width="50%" src="https://drive.google.com/uc?export=view&id=12yz-uW6OP5r_6oyHDmlGWbDu6x9bOoUf" style="width:350px;height=100px"></img>
+</div>
+
+<hr>
+<hr>
+
+<!-------------------
+Center Navigation bar
+----------------------->
+ <ul class="nav" style="text-decoration: none;">
+   <li><a href="#home" class="active">Home</a>      </li>
+   <li><a href="#home" class="active">About</a></li>
+   <li><a href="#home" class="active">Blog</a></li>
+   <li><a href="#home" class="active">Category</a></li>
+     </ul>
+
+
+<!-------------------
+Hero section
+----------------------->
+<div class="hero-image" class="trim">
+ <div class="hero-text">
+ </div>
+</div>
+
+<!-------------------
+Menu section
+----------------------->
+
+<!--  Vege Bowl ---->
+<section>
+<div class="">
+<h3 class="menu">Menu</h3>
+<ul class="flex-container">
+ <li class="flex-item">
+  <p class="subhead">Healthy Vege Bowl</p>
+   <p><img id="img2" src="https://images.unsplash.com/photo-1528352311227-abbd6f7f0a46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae. </p>
+
+ <!--  Chocolate and Waffles ---->
+
+ </li>
+ <li class="flex-item"><p class="subhead">Chocolate and Waffles
+ <p><img id="img2" src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae. </p>
+
+ </li>
+
+</ul>
+
+ <!--  Lemon Pancakes  ---->
+
+<div class="">
+
+<ul class="flex-container">
+ <li class="flex-item"><p class="subhead">Lemon Pancakes
+
+   <p><img id="img2" src="https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=385&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae. </p>
+ </li>
+
+ <!--  Morrocan Salad  ---->
+
+ <li class="flex-item">
+   <p class="subhead">Moroccan Salad
+ </p><img id="img2" src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae.     </p>
+ </li>
+</ul>
+
+<!--  Raspberrry Cupcakes  ---->
+
+<div class="">
+<ul class="flex-container">
+ <li class="flex-item">
+   <p class="subhead">Raspberry Cupcakes
+     </p>
+   <img id="img2" src="https://images.unsplash.com/photo-1579063301056-20486e516fa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae. </p>
+ </li>
+
+<!--  Blueberry Toast   ---->
+
+ <li class="flex-item">
+   <p class="subhead">Blueberry Toast
+ <p>
+   <img id="img2" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=387&q=80" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae. </p>
+</li>
+</ul>
+</div>
+</section>
+
+
+<!------------------------------
+Why choose us Section
+-------------------------------->
+
+<div class="peach">
+<h3>Why choose us?</h3>
+ <p class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,<br> nulla et dictum interdum,</p>
+</div>
+
+
+<!--------------------------------
+testimonial_area_start
+----------------------------------->
+<div class="testimonial_area ">
+    <div class="container">
+       <div class="row">
+       <div class="col-xl-12">
+ <div class="section_title mb-60 text-center">
+<h3 style="color: orange;">Testimonials</h3>
+   </div>
+       </div>
+          </div>
+
+           <div class="row">
+      <div class="col-xl-12">
+<div class="testmonial_active owl-carousel">
+<div class="single_carousel">
+ <div class="row justify-content-center">
+ <div class="col-lg-8">
+<div class="single_testmonial text-center">
+ <p class="block">“Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.<br> Pellentesque id dolor tempor sapien feugiat ultrices nec            neque.</p>
+
+  <div class="testmonial_author">
+<img src = "https://images.unsplash.com/photo-1534286802268-99ddb388ed4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" class ="middle" style="width:200px;border: orange;border-radius: 50%;
+ border: 3px solid yellow;text-align:center;"  alt="">
+</div>
+
+</div>
+</div>
+ </div>
+   </div>
+    </div>
+</div>
+  </div>
+ </div>
+ </div>
+   <!-----------------------
+testimonial_area_end
+---------------------------->
+
+
+ <!-----------------------
+Footer section
+---------------------------->
+
+<footer class="footer">
+    <div class="footer_top">
+    <div class="container">
+    <div class="row">
+    <div class="col-xl-4 col-md-6 col-lg-4">
+    <div class="footer_widget text-center ">
+    <h3 style="color: orange";>
+    New York
+    </h3>
+     <p style="burger">5th flora, 700/D kings road, <br>
+    green lane New York-1782 <br>
+    <a href="#">info@burger.com</a></p>
+     <a class="number" href="#"><p>+10 378 483 6782<p></a>
+
+
+     <div class="col-xl-4 col-md-12 col-lg-4">
+     <div class="footer_widget">
+     <h3 style="color: orange;">
+     Stay Connected
+     </h3>
+
+   <!--  Signup email form   ---->
+
+     <form action="#" class="newsletter_form">
+     <input type="text" placeholder="Enter your mail" class="submit">
+     <button type="submit" class="submit">Sign Up</button>
+     </form>
+
+     <p class="newsletter_text">Stay connect with us to get exclusive offer!</p>
+
+<!-- Add font awesome icons -->
+<div class="widget-area-footer">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+
+     </div>
+     </div>
+     </div>
+
+
+
+
+
+      <div class="copy-right_text">
+      <div class="container">
+      <div class="footer_border"></div>
+     <div class="row">
+     <div class="col-xl-12">
+      <p class="copy_right text-center">
+                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart-o" aria-hidden="true"></i><a href="https://colorlib.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+  </div>
+      </div>
+          </div>
+           </div>
+  </footer>
+
+ <!-----------------------
+Footer end
+---------------------------->
+
+</body>
+</html>
